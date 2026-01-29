@@ -13,3 +13,9 @@ for i in range(20, 0, -1):
     print(i, end=' ')
 print()
 
+# c. Print n stars on one line
+n = int(input("Number of stars: "))
+for i in range(n):
+    print('*', end='')
+print()
+
