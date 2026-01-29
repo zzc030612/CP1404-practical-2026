@@ -19,3 +19,6 @@ for i in range(n):
     print('*', end='')
 print()
 
+# d. Print n lines of increasing stars
+for i in range(1, n + 1):
+    print('*' * i)
